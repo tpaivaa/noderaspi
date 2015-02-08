@@ -1,0 +1,17 @@
+{
+  "name": "noderaspi",
+  "version": "0.0.1",
+  "description": "Write owfs temperatures to Azure database on Soittila mansion",
+  "main": "app.js",
+  "dependencies": {
+    "azure-storage": "^0.4.2",
+    "nconf": "^0.7.1",
+    "owfs": "^0.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "testTemps"
+  },
+  "author": "tpaivaa",
+  "license": "ISC"
+}
