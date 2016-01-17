@@ -2,6 +2,7 @@
 Sync Soittila Temperatures to Azure table
 and local MariaDB
 
+```
 MariaDB [lampotilat]> select * from lampotilat;
 +------+---------------------+---------------+---------+
 | tKey | time                | sensor        | celsius |
@@ -21,4 +22,4 @@ MariaDB [lampotilat]> select * from lampotilat;
 |   15 | 2016-01-18 00:36:57 | veranta       |   20.50 |
 |   16 | 2016-01-18 00:27:56 | ykMH          |   16.56 |
 +------+---------------------+---------------+---------+
-
+```
