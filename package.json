@@ -5,8 +5,10 @@
   "main": "app.js",
   "dependencies": {
     "azure-storage": "^0.4.2",
+    "mariasql": "^0.2.5",
     "nconf": "^0.7.1",
-    "owfs": "^0.2.2"
+    "owfs": "^0.2.2",
+    "rconsole": "^0.2.0"
   },
   "devDependencies": {},
   "scripts": {
