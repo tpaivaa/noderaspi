@@ -5,6 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "azure-storage": "^0.4.2",
+    "firebase-client": "^0.1.1",
     "mariasql": "^0.2.5",
     "nconf": "^0.7.1",
     "owfs": "^0.2.2",
@@ -12,7 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "testTemps"
+    "test": "node test.js"
   },
   "author": "tpaivaa",
   "license": "ISC"

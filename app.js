@@ -1,8 +1,8 @@
 require('rconsole')
 console.set({ facility: 'local0', title: 'basic' })
 
+var updatetemps = require('./util').updatetemps;
 var MariaClient = require('mariasql');
-
 
 var HOST = "10.10.10.4"
 var PORT = 4304
@@ -101,6 +101,8 @@ setInterval(function() {
   console.log("I am doing my 5 minutes check");
   // do your stuff here
   writeAzure();
+  updatetemps(l);
 }, the_interval);
 //readAzure();
 writeAzure();
+updatetemps(l);
