@@ -22,7 +22,7 @@ function updatetemps(sensors) {
     			var name = sensors[sensor][2];
     			var sensor = sensors[sensor][0];
     			console.log('logging ' + sensor);
-    			if (base.sensor){
+    			if (snapshot.child("temps").exists()){
 	    			updateTemp(sensor,name,sensormac);
 	    			console.log('sensorille '+ sensor + ' löyty paikka');
 	    		} else {
